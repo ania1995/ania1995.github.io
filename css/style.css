@@ -67,7 +67,6 @@ nav a {
 .nav__link:hover {
   color: var(--color5);
   border-bottom: 2px solid var(--color5);
-  //font-weight: bold;
 }
 
 /* header */
@@ -87,8 +86,8 @@ header {
 
 /* main  */
 
-main {
-}
+/* main {
+} */
 
 footer {
   display: flex;

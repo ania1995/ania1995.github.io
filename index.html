@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../../css/normalize.css" />
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/letter.css" />
+    <link rel="stylesheet" href="css/squares-animation.css" />
     <link rel="shortcut icon" href="img/favicon_ania.png" type="image/x-icon" />
     <title>Ania Stanek</title>
   </head>
@@ -13,8 +14,8 @@
     <div class="container">
       <nav>
         <div class="letter_font">
-          <div class="A"></div>
-          <div class="S"></div>
+          <div class="A a-animation"></div>
+          <div class="S s-animation"></div>
         </div>
         <div>
           <a href="#" class="nav__link nav__link--curent">About</a>
@@ -23,7 +24,24 @@
         </div>
       </nav>
       <header>About me</header>
-      <main></main>
+      <main>
+        <div class="aniamation-test">
+          <div id="all-squares">
+            <div id="top" class="row">
+              <div class="square first first-fade"></div>
+              <div class="square second second-fade"></div>
+              <div class="square third third-fade"></div>
+            </div>
+            <div id="middle" class="row">
+              <div class="square first second-fade"></div>
+              <div class="square second third-fade"></div>
+            </div>
+            <div id="bottom" class="row">
+              <div class="square first third-fade"></div>
+            </div>
+          </div>
+        </div>
+      </main>
 
       <footer>
         <section class="color1"></section>
