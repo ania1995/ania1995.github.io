@@ -1,0 +1,122 @@
+:root {
+  /* Color Theme Swatches in RGBA */
+  --color1: rgba(114, 117, 140, 1);
+  --color2: rgba(164, 173, 191, 1);
+  --color3: rgba(237, 236, 243, 1);
+  --color4: rgba(223, 154, 153, 1);
+  --color5: rgba(222, 123, 120, 1);
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  color: var(--color1);
+}
+
+body {
+  font-family: Arial, Arial Unicode MS, Helvetica, DejaVu Sans,
+    Lucida Sans Unicode, sans-serif;
+  background-image: url(/img/background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  background-color: rgba(244, 245, 248, 0.76);
+  box-shadow: 0 1px 2px 0 rgba(114, 117, 140, 0.3),
+    0 2px 6px 2px rgba(114, 117, 140, 0.15);
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto 300px 300px auto;
+
+  gap: 10px;
+  margin: 40px auto;
+  max-width: 1620px;
+}
+
+.container > * {
+  padding: 10px;
+}
+
+/* nav */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 10px 10px;
+  text-transform: uppercase;
+}
+
+.nav__link {
+  font-size: 18px;
+  letter-spacing: 0.7px;
+  padding: 5px;
+}
+
+/* .nav__link--curent {
+  font-size: 19px;
+  border-bottom: 2px solid var(--color1);
+  font-weight: bold;
+} */
+
+.nav__link:hover {
+  color: var(--color5);
+  border-bottom: 2px solid var(--color5);
+  //font-weight: bold;
+}
+
+/* header */
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.img_author {
+  height: 400px;
+  margin: 20px;
+}
+
+/* main  */
+
+main {
+}
+
+footer {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+}
+
+footer > * {
+  width: 20%;
+  height: 90px;
+}
+
+.color1 {
+  background-color: var(--color1);
+}
+
+.color2 {
+  background-color: var(--color2);
+}
+
+.color3 {
+  background-color: var(--color3);
+}
+
+.color4 {
+  background-color: var(--color4);
+}
+
+.color5 {
+  background-color: var(--color5);
+}

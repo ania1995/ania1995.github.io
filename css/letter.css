@@ -1,0 +1,77 @@
+:root {
+  /* Color Theme Swatches in RGBA */
+  --color1: rgba(114, 117, 140, 1);
+  --color2: rgba(164, 173, 191, 1);
+  --color3: rgba(237, 236, 243, 1);
+  --color4: rgba(223, 154, 153, 1);
+  --color5: rgba(222, 123, 120, 1);
+}
+
+.letter_font {
+  height: 10px;
+  list-style: none;
+}
+
+.A {
+  position: relative;
+  left: 30px;
+  width: 60px;
+  height: 91px;
+}
+
+.A:before {
+  transform: skew(-19deg, 0);
+  position: absolute;
+  content: "";
+  top: 12.5px;
+  left: 0;
+  width: 16px;
+  height: 125px;
+  background-color: rgba(164, 173, 191, 1);
+}
+.A:after {
+  transform: skew(19deg, 0);
+  position: absolute;
+  content: "";
+  top: 12.5px;
+  left: 45px;
+  width: 16px;
+  height: 125px;
+  background-color: rgba(114, 117, 140, 1);
+}
+
+.S {
+  transform: rotate(14deg);
+  position: relative;
+  width: 105px;
+  height: 150px;
+  top: -30px;
+  left: 5px;
+}
+
+.S:before {
+  transform: rotate(18deg);
+  position: absolute;
+  content: "";
+  left: 55px;
+  width: 44px;
+  height: 40px;
+  top: -40px;
+  border-width: 14px 0 15px 15px;
+  border-color: rgba(164, 173, 191, 1);
+  border-style: solid;
+  border-radius: 220%0 0 150% /150%0 0 100%;
+}
+.S:after {
+  transform: rotate(198deg);
+  position: absolute;
+  content: "";
+  top: 25px;
+  left: 76px;
+  width: 52px;
+  height: 44px;
+  border-width: 14px 0 15px 15px;
+  border-color: rgba(164, 173, 191, 1);
+  border-style: solid;
+  border-radius: 240%0 0 110% /140%0 0 100%;
+}
