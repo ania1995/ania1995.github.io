@@ -4,12 +4,19 @@ div.tab-frame input {
 }
 
 /* wyrównanie labeli oraz ustawienie zmiayn wyświetlanego kursora */
-div.tab-frame label {
-  display: block;
-  float: left;
-  padding: 5px 10px;
-  cursor: pointer;
+div.nav label {
+  text-decoration: none;
+  margin: 10px 10px;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 0.7px;
+  padding: 5px;
 }
+
+/* div.nav label:hover {
+  color: var(--color4);
+  border-bottom: 2px solid var(--color5);
+} */
 
 /* podświetlanie przyciśniętego TAB'a */
 div.tab-frame input:checked + label {
@@ -30,3 +37,5 @@ div.tab-frame input:nth-of-type(2):checked ~ .tab:nth-of-type(2),
 div.tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3) {
   display: block;
 }
+
+.container: has();
