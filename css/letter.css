@@ -1,6 +1,7 @@
 .letter_font {
-  height: 10px;
+  height: 180px;
   list-style: none;
+  min-width: 180px;
 }
 
 .A {
