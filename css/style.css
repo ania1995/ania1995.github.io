@@ -267,6 +267,9 @@ footer > * {
   nav a {
     font-size: 18px;
   }
+  .page1 {
+    justify-content: center;
+  }
   .article-about-me p {
     width: 90%;
   }
@@ -286,9 +289,7 @@ footer > * {
   nav a {
     font-size: 20px;
   }
-  .page1 {
-    justify-content: center;
-  }
+
   #page1__img {
     width: 330px;
     height: 500px;
