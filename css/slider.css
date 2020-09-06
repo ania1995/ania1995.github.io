@@ -35,7 +35,7 @@ p.grey_font {
   background-image: linear-gradient(to top, var(--color3), var(--color1));
   position: relative;
   border-radius: 16px;
-  padding: 2rem;
+  padding: 3rem;
   margin: 0 4rem 0 0;
   display: flex;
   color: var(--color3);
@@ -182,6 +182,9 @@ p.grey_font {
   p.grey_font {
     font-size: 0.9rem;
   }
+  .header-card {
+    padding: 2rem;
+  }
 
   .mini-card {
     min-width: 190px;
@@ -235,7 +238,8 @@ p.grey_font {
     transform: rotate(180deg);
     flex: 0;
     width: 110px;
-    margin-right: 1rem;
+    margin-right: 0.1rem;
+    padding: 2rem;
   }
 
   .header-card br {
@@ -259,5 +263,11 @@ p.grey_font {
   }
   .popular-articles {
     padding-left: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-card {
+    padding: 1rem;
   }
 }
