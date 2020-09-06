@@ -137,8 +137,16 @@ p {
   max-width: 250px;
 }
 
+.tab-frame {
+  width: 100%;
+}
+
 .tab {
   font-size: 25px;
+  width: 100%;
+}
+.page2 {
+  //height: 550px;
 }
 
 #page1__img {
@@ -164,6 +172,7 @@ footer > * {
 
 .color1 {
   background-color: var(--color1);
+  border-radius: 10px 0 0 10px;
 }
 
 .color2 {
@@ -180,6 +189,7 @@ footer > * {
 
 .color5 {
   background-color: var(--color5);
+  border-radius: 0 10px 10px 0;
 }
 
 @media screen and (min-width: 600px) {
