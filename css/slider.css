@@ -173,7 +173,7 @@ p.grey_font {
   border-color: rgba(164, 173, 191, 0.719);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 799px) {
   .h3,
   h3 {
     font-size: 26px;
@@ -206,7 +206,7 @@ p.grey_font {
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
   .h3,
   h3 {
     font-size: 30px;
@@ -266,7 +266,7 @@ p.grey_font {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 599px) {
   .header-card {
     padding: 1rem;
   }

@@ -157,6 +157,7 @@ h2 {
 
 #page1__img {
   height: auto;
+  max-height: 500px;
   width: 100%;
   border-radius: 5px;
   box-shadow: 0 1px 2px 0 rgba(114, 117, 140, 0.3),
@@ -165,7 +166,7 @@ h2 {
 
 .article-about-me {
   max-width: 700px;
-  height: auto;
+  max-height: 500px;
   border-radius: 5px 5px 5px 5px;
   background: rgb(249, 249, 250);
   box-shadow: 0 1px 2px 0 rgba(114, 117, 140, 0.3),
@@ -250,7 +251,7 @@ footer > * {
     flex-direction: row;
   }
   .page1__container-img {
-    width: 450px;
+    width: 330px;
     height: auto;
     margin: 0 5px;
   }
@@ -285,8 +286,12 @@ footer > * {
   nav a {
     font-size: 20px;
   }
+  .page1 {
+    justify-content: center;
+  }
   #page1__img {
-    height: 100%;
+    width: 330px;
+    height: 500px;
   }
   .article-about-me {
     margin-right: 5px;
