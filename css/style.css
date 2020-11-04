@@ -178,6 +178,32 @@ h2 {
   width: 100%;
 }
 
+.page3 {
+  display: flex;
+  flex-direction: column;
+  height: 530px;
+  overflow-y: scroll;
+}
+.my-project {
+  display: flex;
+  flex-direction: row;
+  min-height: 200px;
+  border-radius: 5px 5px 5px 5px;
+  background: rgb(249, 249, 250);
+  box-shadow: 0 1px 2px 0 rgba(114, 117, 140, 0.3),
+    0 2px 6px 2px rgba(114, 117, 140, 0.15);
+  padding: 1rem 1.5rem;
+  margin: 5px auto;
+  width: 100%;
+}
+
+.container_project_photo {
+  width: 30vw;
+  max-width: 400px;
+  margin-right: 25px;
+  overflow: hidden;
+}
+
 footer {
   display: flex;
   align-items: flex-end;
